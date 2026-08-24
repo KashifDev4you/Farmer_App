@@ -228,14 +228,14 @@ class Explorescreen extends StatelessWidget {
                           "assets/images/Frame89.png",
                           fit: BoxFit.cover,
                         ),
-                        Image.asset(
-                          "assets/images/Frame89.png",
-                          fit: BoxFit.cover,
-                        ),
-                        Image.asset(
-                          "assets/images/Frame88.png",
-                          fit: BoxFit.cover,
-                        ),
+                        // Image.asset(
+                        //   "assets/images/Frame89.png",
+                        //   fit: BoxFit.cover,
+                        // ),
+                        // Image.asset(
+                        //   "assets/images/Frame88.png",
+                        //   fit: BoxFit.cover,
+                        // ),
                       ],
                     ),
                   ),
@@ -434,7 +434,15 @@ class Explorescreen extends StatelessWidget {
                     width: 400,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
-                      color: const Color.fromARGB(31, 177, 42, 42),
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.3),
+                          blurRadius: 10,
+                          spreadRadius: 2,
+                          offset: Offset(0, 0),
+                        ),
+                      ],
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
