@@ -1,10 +1,5 @@
-import 'package:flutter/material.dart';
+class AppString{
+    AppString._();
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+    static const appName = 'Farmers';
 }
