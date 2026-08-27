@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 
 import 'app_routes.dart';
-import 'package:food_app/screens/login.dart';
-import 'package:food_app/screens/profile.dart';
-import 'package:food_app/screens/register.dart';
+import 'package:food_app/screens/home.dart';
+import 'package:food_app/screens/explore.dart';
+import 'package:food_app/screens/checkout.dart';
 
 class AppPages {
   AppPages._();
