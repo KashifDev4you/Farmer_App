@@ -1,7 +1,7 @@
 class AppRoutes {
   AppRoutes._();
 
-  static const home = './homescreen';
+  static const checkout = './checkoutscreen';
   static const explore = './explorescreen';
-  static const chekout = './checkoutscreen';
+  static const home = './homescreen';
 }
